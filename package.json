@@ -1,5 +1,5 @@
 {
-  "name": "pngjs-image",
+  "name": "@pandell/pngjs-image",
   "version": "0.11.6",
   "description": "JavaScript-based PNG image encoder, decoder, and manipulator",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yahoo/pngjs-image.git"
+    "url": "https://github.com/pandell/pngjs-image.git"
   },
   "keywords": [
     "PNG",
@@ -23,23 +23,20 @@
     "alpha"
   ],
   "scripts": {
-    "test": "istanbul cover -- _mocha --reporter spec",
+    "test": "mocha --reporter spec",
     "docs": "yuidoc ."
   },
   "dependencies": {
     "iconv-lite": "^0.4.8",
     "pako": "^0.2.6",
-    "pngjs": "0.4.0",
+    "pngjs": "3.0.0",
     "request": "^2.55.0",
     "stream-buffers": "1.0.1",
     "underscore": "1.7.0"
   },
   "devDependencies": {
     "chai": "1.9.2",
-    "coveralls": "2.11.2",
-    "codeclimate-test-reporter": "0.0.4",
-    "istanbul": "0.3.2",
-    "mocha": "1.21.4",
+    "mocha": "3.1.2",
     "sinon": "1.12.2",
     "sinon-chai": "2.7.0",
     "yuidocjs": "0.3.50"
