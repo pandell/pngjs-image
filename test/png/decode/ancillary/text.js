@@ -3,6 +3,7 @@
 
 var testGen = require('../../testGen');
 var expect = require('chai').expect;
+var EOL = require("os").EOL;
 
 describe('Text', function () {
 
@@ -60,7 +61,7 @@ describe('Text', function () {
 					"keyword": "Title"
 				},
 				{
-					"content": "Willem A.J. van Schaik\n(willem@schaik.com)",
+					"content": "Willem A.J. van Schaik" + EOL + "(willem@schaik.com)",
 					"keyword": "Author"
 				},
 				{
@@ -68,7 +69,7 @@ describe('Text', function () {
 					"keyword": "Copyright"
 				},
 				{
-					"content": "A compilation of a set of images created to test the\nvarious color-types of the PNG format. Included are\nblack&white, color, paletted, with alpha channel, with\ntransparency formats. All bit-depths allowed according\nto the spec are present.",
+					"content": "A compilation of a set of images created to test the" + EOL + "various color-types of the PNG format. Included are" + EOL + "black&white, color, paletted, with alpha channel, with" + EOL + "transparency formats. All bit-depths allowed according" + EOL + "to the spec are present.",
 					"keyword": "Description"
 				},
 				{
@@ -113,7 +114,7 @@ describe('Text', function () {
 					"keyword": "Title"
 				},
 				{
-					"content": "Willem A.J. van Schaik\n(willem@schaik.com)",
+					"content": "Willem A.J. van Schaik" + EOL + "(willem@schaik.com)",
 					"keyword": "Author"
 				}
 			]);
@@ -126,7 +127,7 @@ describe('Text', function () {
 					"keyword": "Copyright"
 				},
 				{
-					"content": "A compilation of a set of images created to test the\nvarious color-types of the PNG format. Included are\nblack&white, color, paletted, with alpha channel, with\ntransparency formats. All bit-depths allowed according\nto the spec are present.",
+					"content": "A compilation of a set of images created to test the" + EOL + "various color-types of the PNG format. Included are" + EOL + "black&white, color, paletted, with alpha channel, with" + EOL + "transparency formats. All bit-depths allowed according" + EOL + "to the spec are present.",
 					"keyword": "Description"
 				},
 				{
