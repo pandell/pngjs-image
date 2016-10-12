@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+v1.0.0 - 2016-10-12
+* Update to pngjs 3.0.0
+* Switch to @pandell scope
+
 v0.11.6 - 06/05/15
 * Speed improvements
 * Convert processor arrays to internal 16-bit buffers
